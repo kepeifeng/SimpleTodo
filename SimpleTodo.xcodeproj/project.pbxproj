@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3701A06C1BCDE8D6008BBD56 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3701A06B1BCDE8D6008BBD56 /* View.xib */; settings = {ASSET_TAGS = (); }; };
+		3701A06F1BCDF39D008BBD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3701A06D1BCDF39D008BBD56 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		37064C981BCF3C54002293DC /* AKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064C971BCF3C54002293DC /* AKView.m */; settings = {ASSET_TAGS = (); }; };
+		37064C9C1BCF45DC002293DC /* STTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064C9B1BCF45DC002293DC /* STTask.m */; settings = {ASSET_TAGS = (); }; };
+		37064C9F1BCF593E002293DC /* NSFileManager+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064C9E1BCF593E002293DC /* NSFileManager+Utility.m */; settings = {ASSET_TAGS = (); }; };
+		37064CA21BCF9713002293DC /* STTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064CA11BCF9713002293DC /* STTaskCell.m */; settings = {ASSET_TAGS = (); }; };
 		3725EF681BCD090D00536863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF671BCD090D00536863 /* AppDelegate.m */; };
 		3725EF6B1BCD090D00536863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF6A1BCD090D00536863 /* main.m */; };
-		3725EF6E1BCD090D00536863 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF6D1BCD090D00536863 /* ViewController.m */; };
 		3725EF701BCD090D00536863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3725EF6F1BCD090D00536863 /* Assets.xcassets */; };
-		3725EF731BCD090E00536863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3725EF711BCD090E00536863 /* Main.storyboard */; };
 		3725EF7E1BCD090E00536863 /* SimpleTodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF7D1BCD090E00536863 /* SimpleTodoTests.m */; };
 		3725EF891BCD090E00536863 /* SimpleTodoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF881BCD090E00536863 /* SimpleTodoUITests.m */; };
+		37FEB6121BCD0A96006E1771 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEB6111BCD0A96006E1771 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3701A06B1BCDE8D6008BBD56 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		3701A06E1BCDF39D008BBD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37064C961BCF3C54002293DC /* AKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKView.h; sourceTree = "<group>"; };
+		37064C971BCF3C54002293DC /* AKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKView.m; sourceTree = "<group>"; };
+		37064C991BCF3C77002293DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		37064C9A1BCF45DC002293DC /* STTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTask.h; sourceTree = "<group>"; };
+		37064C9B1BCF45DC002293DC /* STTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTask.m; sourceTree = "<group>"; };
+		37064C9D1BCF593E002293DC /* NSFileManager+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Utility.h"; sourceTree = "<group>"; };
+		37064C9E1BCF593E002293DC /* NSFileManager+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Utility.m"; sourceTree = "<group>"; };
+		37064CA01BCF9713002293DC /* STTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTaskCell.h; sourceTree = "<group>"; };
+		37064CA11BCF9713002293DC /* STTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTaskCell.m; sourceTree = "<group>"; };
 		3725EF631BCD090D00536863 /* SimpleTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3725EF661BCD090D00536863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3725EF671BCD090D00536863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3725EF6A1BCD090D00536863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3725EF6C1BCD090D00536863 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3725EF6D1BCD090D00536863 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3725EF6F1BCD090D00536863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3725EF721BCD090E00536863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3725EF741BCD090E00536863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3725EF791BCD090E00536863 /* SimpleTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3725EF7D1BCD090E00536863 /* SimpleTodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTodoTests.m; sourceTree = "<group>"; };
@@ -49,6 +62,8 @@
 		3725EF841BCD090E00536863 /* SimpleTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3725EF881BCD090E00536863 /* SimpleTodoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTodoUITests.m; sourceTree = "<group>"; };
 		3725EF8A1BCD090E00536863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FEB6101BCD0A96006E1771 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		37FEB6111BCD0A96006E1771 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,14 +114,23 @@
 		3725EF651BCD090D00536863 /* SimpleTodo */ = {
 			isa = PBXGroup;
 			children = (
+				37064C9D1BCF593E002293DC /* NSFileManager+Utility.h */,
+				37064C9E1BCF593E002293DC /* NSFileManager+Utility.m */,
 				3725EF661BCD090D00536863 /* AppDelegate.h */,
 				3725EF671BCD090D00536863 /* AppDelegate.m */,
-				3725EF6C1BCD090D00536863 /* ViewController.h */,
-				3725EF6D1BCD090D00536863 /* ViewController.m */,
+				3701A06D1BCDF39D008BBD56 /* Main.storyboard */,
 				3725EF6F1BCD090D00536863 /* Assets.xcassets */,
-				3725EF711BCD090E00536863 /* Main.storyboard */,
 				3725EF741BCD090E00536863 /* Info.plist */,
 				3725EF691BCD090D00536863 /* Supporting Files */,
+				37FEB6101BCD0A96006E1771 /* MainViewController.h */,
+				37FEB6111BCD0A96006E1771 /* MainViewController.m */,
+				3701A06B1BCDE8D6008BBD56 /* View.xib */,
+				37064C961BCF3C54002293DC /* AKView.h */,
+				37064C971BCF3C54002293DC /* AKView.m */,
+				37064C9A1BCF45DC002293DC /* STTask.h */,
+				37064C9B1BCF45DC002293DC /* STTask.m */,
+				37064CA01BCF9713002293DC /* STTaskCell.h */,
+				37064CA11BCF9713002293DC /* STTaskCell.m */,
 			);
 			path = SimpleTodo;
 			sourceTree = "<group>";
@@ -115,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				3725EF6A1BCD090D00536863 /* main.m */,
+				37064C991BCF3C77002293DC /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -240,8 +265,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3701A06F1BCDF39D008BBD56 /* Main.storyboard in Resources */,
 				3725EF701BCD090D00536863 /* Assets.xcassets in Resources */,
-				3725EF731BCD090E00536863 /* Main.storyboard in Resources */,
+				3701A06C1BCDE8D6008BBD56 /* View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3725EF6E1BCD090D00536863 /* ViewController.m in Sources */,
 				3725EF6B1BCD090D00536863 /* main.m in Sources */,
 				3725EF681BCD090D00536863 /* AppDelegate.m in Sources */,
+				37064C9C1BCF45DC002293DC /* STTask.m in Sources */,
+				37064C9F1BCF593E002293DC /* NSFileManager+Utility.m in Sources */,
+				37064C981BCF3C54002293DC /* AKView.m in Sources */,
+				37FEB6121BCD0A96006E1771 /* MainViewController.m in Sources */,
+				37064CA21BCF9713002293DC /* STTaskCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +334,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3725EF711BCD090E00536863 /* Main.storyboard */ = {
+		3701A06D1BCDF39D008BBD56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3725EF721BCD090E00536863 /* Base */,
+				3701A06E1BCDF39D008BBD56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -399,6 +429,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleTodo/PrefixHeader.pch;
 				INFOPLIST_FILE = SimpleTodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroh.SimpleTodo;
@@ -411,6 +443,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleTodo/PrefixHeader.pch;
 				INFOPLIST_FILE = SimpleTodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroh.SimpleTodo;
@@ -489,6 +523,7 @@
 				3725EF8F1BCD090E00536863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3725EF901BCD090E00536863 /* Build configuration list for PBXNativeTarget "SimpleTodoTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +532,7 @@
 				3725EF921BCD090E00536863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3725EF931BCD090E00536863 /* Build configuration list for PBXNativeTarget "SimpleTodoUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +541,7 @@
 				3725EF951BCD090E00536863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

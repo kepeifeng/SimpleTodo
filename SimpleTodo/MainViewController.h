@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  SimpleTodo
 //
 //  Created by Kent on 10/13/15.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface MainViewController : NSViewController
 
 @end
-

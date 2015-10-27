@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3701A06C1BCDE8D6008BBD56 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3701A06B1BCDE8D6008BBD56 /* View.xib */; settings = {ASSET_TAGS = (); }; };
 		3701A06F1BCDF39D008BBD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3701A06D1BCDF39D008BBD56 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		37064C981BCF3C54002293DC /* AKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064C971BCF3C54002293DC /* AKView.m */; settings = {ASSET_TAGS = (); }; };
 		37064C9C1BCF45DC002293DC /* STTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064C9B1BCF45DC002293DC /* STTask.m */; settings = {ASSET_TAGS = (); }; };
 		37064C9F1BCF593E002293DC /* NSFileManager+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064C9E1BCF593E002293DC /* NSFileManager+Utility.m */; settings = {ASSET_TAGS = (); }; };
 		37064CA21BCF9713002293DC /* STTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37064CA11BCF9713002293DC /* STTaskCell.m */; settings = {ASSET_TAGS = (); }; };
@@ -18,7 +17,9 @@
 		3725EF701BCD090D00536863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3725EF6F1BCD090D00536863 /* Assets.xcassets */; };
 		3725EF7E1BCD090E00536863 /* SimpleTodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF7D1BCD090E00536863 /* SimpleTodoTests.m */; };
 		3725EF891BCD090E00536863 /* SimpleTodoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3725EF881BCD090E00536863 /* SimpleTodoUITests.m */; };
+		376EB8151BD61D85007A67DD /* STTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EB8141BD61D85007A67DD /* STTableView.m */; settings = {ASSET_TAGS = (); }; };
 		37FEB6121BCD0A96006E1771 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FEB6111BCD0A96006E1771 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EC20F7FFCCD306B6A9116383 /* libPods-SimpleTodo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E45EDF72CFB87C17CD8182F /* libPods-SimpleTodo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30481287DB8AA618B01FFED0 /* Pods-SimpleTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo.debug.xcconfig"; sourceTree = "<group>"; };
 		3701A06B1BCDE8D6008BBD56 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		3701A06E1BCDF39D008BBD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37064C961BCF3C54002293DC /* AKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKView.h; sourceTree = "<group>"; };
-		37064C971BCF3C54002293DC /* AKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKView.m; sourceTree = "<group>"; };
 		37064C991BCF3C77002293DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		37064C9A1BCF45DC002293DC /* STTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTask.h; sourceTree = "<group>"; };
 		37064C9B1BCF45DC002293DC /* STTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTask.m; sourceTree = "<group>"; };
@@ -62,8 +62,12 @@
 		3725EF841BCD090E00536863 /* SimpleTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3725EF881BCD090E00536863 /* SimpleTodoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTodoUITests.m; sourceTree = "<group>"; };
 		3725EF8A1BCD090E00536863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376EB8131BD61D85007A67DD /* STTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableView.h; sourceTree = "<group>"; };
+		376EB8141BD61D85007A67DD /* STTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableView.m; sourceTree = "<group>"; };
 		37FEB6101BCD0A96006E1771 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		37FEB6111BCD0A96006E1771 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		48EC7463647C12FC37776578 /* Pods-SimpleTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo.release.xcconfig"; sourceTree = "<group>"; };
+		8E45EDF72CFB87C17CD8182F /* libPods-SimpleTodo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTodo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC20F7FFCCD306B6A9116383 /* libPods-SimpleTodo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +103,8 @@
 				3725EF7C1BCD090E00536863 /* SimpleTodoTests */,
 				3725EF871BCD090E00536863 /* SimpleTodoUITests */,
 				3725EF641BCD090D00536863 /* Products */,
+				CE509B10C1127A01399CF6CF /* Pods */,
+				A27199E67BE338DF0FF0912F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,12 +132,12 @@
 				37FEB6101BCD0A96006E1771 /* MainViewController.h */,
 				37FEB6111BCD0A96006E1771 /* MainViewController.m */,
 				3701A06B1BCDE8D6008BBD56 /* View.xib */,
-				37064C961BCF3C54002293DC /* AKView.h */,
-				37064C971BCF3C54002293DC /* AKView.m */,
 				37064C9A1BCF45DC002293DC /* STTask.h */,
 				37064C9B1BCF45DC002293DC /* STTask.m */,
 				37064CA01BCF9713002293DC /* STTaskCell.h */,
 				37064CA11BCF9713002293DC /* STTaskCell.m */,
+				376EB8131BD61D85007A67DD /* STTableView.h */,
+				376EB8141BD61D85007A67DD /* STTableView.m */,
 			);
 			path = SimpleTodo;
 			sourceTree = "<group>";
@@ -162,6 +169,23 @@
 			path = SimpleTodoUITests;
 			sourceTree = "<group>";
 		};
+		A27199E67BE338DF0FF0912F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E45EDF72CFB87C17CD8182F /* libPods-SimpleTodo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE509B10C1127A01399CF6CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30481287DB8AA618B01FFED0 /* Pods-SimpleTodo.debug.xcconfig */,
+				48EC7463647C12FC37776578 /* Pods-SimpleTodo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3725EF8D1BCD090E00536863 /* Build configuration list for PBXNativeTarget "SimpleTodo" */;
 			buildPhases = (
+				A80A392352828A07F3DF527D /* Check Pods Manifest.lock */,
 				3725EF5F1BCD090D00536863 /* Sources */,
 				3725EF601BCD090D00536863 /* Frameworks */,
 				3725EF611BCD090D00536863 /* Resources */,
+				896DA6F449EA6B03393B2425 /* Embed Pods Frameworks */,
+				1A6CBE508982504593EEBF0B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +314,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A6CBE508982504593EEBF0B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896DA6F449EA6B03393B2425 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80A392352828A07F3DF527D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3725EF5F1BCD090D00536863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,9 +369,9 @@
 			files = (
 				3725EF6B1BCD090D00536863 /* main.m in Sources */,
 				3725EF681BCD090D00536863 /* AppDelegate.m in Sources */,
+				376EB8151BD61D85007A67DD /* STTableView.m in Sources */,
 				37064C9C1BCF45DC002293DC /* STTask.m in Sources */,
 				37064C9F1BCF593E002293DC /* NSFileManager+Utility.m in Sources */,
-				37064C981BCF3C54002293DC /* AKView.m in Sources */,
 				37FEB6121BCD0A96006E1771 /* MainViewController.m in Sources */,
 				37064CA21BCF9713002293DC /* STTaskCell.m in Sources */,
 			);
@@ -426,6 +501,7 @@
 		};
 		3725EF8E1BCD090E00536863 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30481287DB8AA618B01FFED0 /* Pods-SimpleTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -440,6 +516,7 @@
 		};
 		3725EF8F1BCD090E00536863 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EC7463647C12FC37776578 /* Pods-SimpleTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

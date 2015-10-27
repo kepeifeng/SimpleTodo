@@ -33,29 +33,40 @@
 
 -(void)statusItemClicked:(NSStatusBarButton *)sender{
     
-    if (!_popOver) {
+//    dispatch_async(dispatch_get_main_queue(), ^{
+        if (!_popOver) {
+            
+            _popOver = [[NSPopover alloc] init];
+            _popOver.behavior = NSPopoverBehaviorTransient;//close when user clicked out of the window
+            MainViewController * viewController = [[MainViewController alloc] init];
+            _popOver.contentViewController = viewController;
+            _popOver.delegate = self;
+            _popOver.animates = NO;
+            //        _popOver.contentSize = CGSizeMake(400, 400);
+            
+            
+            
+            
+        }
         
-        _popOver = [[NSPopover alloc] init];
-        _popOver.behavior = NSPopoverBehaviorTransient;//close when user clicked out of the window
-        MainViewController * viewController = [[MainViewController alloc] init];
-        _popOver.contentViewController = viewController;
-        _popOver.delegate = self;
-//        _popOver.contentSize = CGSizeMake(400, 400);
-        
-    }
-    
-    if(_popOver.shown){
-        
-        [_popOver close];
-        
-    }else{
-        [_popOver showRelativeToRect:sender.bounds ofView:sender preferredEdge:(NSRectEdgeMinY)];
-        
-//        [_popOver becomeFirstResponder];
-//        CGFloat padding = 10;
-//        _popOver.contentViewController.view.frame = NSMakeRect(padding, padding, _popOver.contentSize.width - padding * 2, _popOver.contentSize.height - padding * 2);
-        
-    }
+        if(_popOver.shown){
+            
+            [_popOver close];
+            
+        }else{
+            
+            [[NSApplication sharedApplication] activateIgnoringOtherApps : YES];
+            [_popOver showRelativeToRect:sender.bounds ofView:sender preferredEdge:(NSRectEdgeMinY)];
+            
+            
+//            BOOL becomeFirstResponder = [_popOver becomeFirstResponder];
+//            NSLog(@"becomeFirstResponder:%@",(becomeFirstResponder)?@"YES":@"NO");
+            //        CGFloat padding = 10;
+            //        _popOver.contentViewController.view.frame = NSMakeRect(padding, padding, _popOver.contentSize.width - padding * 2, _popOver.contentSize.height - padding * 2);
+            
+        }
+//    });
+
         
 }
 

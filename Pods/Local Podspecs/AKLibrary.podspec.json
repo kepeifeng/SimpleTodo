@@ -1,0 +1,25 @@
+{
+  "name": "AKLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of AKLibrary.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AKLibrary",
+  "license": "MIT",
+  "authors": {
+    "Kent Peifeng Ke": "kepeifeng@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AKLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.9"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AKLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

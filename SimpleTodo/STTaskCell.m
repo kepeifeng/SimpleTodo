@@ -44,6 +44,7 @@
     _textField.font = FONT;
     _textField.textColor = [NSColor blackColor];
     _textField.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
+    _textField.backgroundColor = [NSColor clearColor];
     [self addSubview:_textField];
     self.textField = _textField;
     
@@ -60,7 +61,32 @@
 
 }
 
+-(void)setHighlighted:(BOOL)highlighted{
 
+    _highlighted = highlighted;
+    
+    if (highlighted) {
+        
+        self.backgroundColor = [NSColor colorWithRed:0.68 green:0.66 blue:0.83 alpha:1];
+        self.textField.textColor = [NSColor whiteColor];
+    }else{
+        
+        self.backgroundColor = [NSColor whiteColor];
+        self.textField.textColor = [NSColor blackColor];
+    }
+}
+
+-(void)setActived:(BOOL)actived{
+
+    _actived = actived;
+    if (actived) {
+        self.textField.alphaValue = 1.0f;
+        self.checkBox.alphaValue = 1.0f;
+    }else{
+        self.textField.alphaValue = 0.5f;
+        self.checkBox.alphaValue = 0.5f;
+    }
+}
 
 
 +(CGSize)cellSizeForTask:(STTask * )task width:(CGFloat)width{

@@ -1,0 +1,14 @@
+PODS:
+  - AKLibrary (0.1.0)
+
+DEPENDENCIES:
+  - AKLibrary (from `~/Documents/Projects/MyPod/AKLibrary`)
+
+EXTERNAL SOURCES:
+  AKLibrary:
+    :path: "~/Documents/Projects/MyPod/AKLibrary"
+
+SPEC CHECKSUMS:
+  AKLibrary: 325bc57c63c4d630219c97111acc731a6ee544bf
+
+COCOAPODS: 0.39.0
